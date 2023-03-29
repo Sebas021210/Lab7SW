@@ -1,0 +1,53 @@
+/*!*********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/page3/page3.scss ***!
+  \*********************************************************************************************************************/
+.body_nuevos {
+  background-color: #fefae0;
+}
+
+.contenedor {
+  width: 97%;
+  margin: auto;
+}
+
+header {
+  padding: 30 px 0;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  color: #000000;
+  font-size: 40px;
+}
+
+header nav a {
+  color: #AAA;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.principal {
+  color: #000000;
+}
+
+a {
+  color: #AAA;
+}
+
+a:hover {
+  color: #000000;
+}
+
+img {
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
