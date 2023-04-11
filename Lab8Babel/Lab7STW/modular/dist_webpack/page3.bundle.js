@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"agregarImagen\": () => (/* binding */ agregarImagen)\n/* harmony export */ });\nconst agregarImagen = (src, ancho, alto, textoAlternativo) => {\r\n    var imagen = document.createElement(\"img\");\r\n    imagen.setAttribute(\"src\", src);\r\n    imagen.setAttribute(\"width\", ancho);\r\n    imagen.setAttribute(\"height\", alto);\r\n    imagen.setAttribute(\"alt\", textoAlternativo);\r\n    document.body.appendChild(imagen);\r\n    return imagen;   \r\n}\r\n  \n\n//# sourceURL=webpack://modular/./src/funciones/imagenes.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"agregarImagen\": () => (/* binding */ agregarImagen)\n/* harmony export */ });\nconst agregarImagen = (src, ancho, alto, textoAlternativo) => {\r\n    const imagen = document.createElement(\"img\");\r\n    return src && ancho && alto ? (\r\n        imagen.setAttribute(\"src\", src),\r\n        imagen.setAttribute(\"width\", ancho),\r\n        imagen.setAttribute(\"height\", alto),\r\n        imagen.setAttribute(\"alt\", textoAlternativo),\r\n        document.body.appendChild(imagen),\r\n        imagen\r\n    ) : (\r\n        () => { throw new Error(\"Faltan algunos parámetros necesarios para agregar la imagen\"); }\r\n    )(); \r\n}\r\n\r\n\n\n//# sourceURL=webpack://modular/./src/funciones/imagenes.js?");
 
 /***/ }),
 
