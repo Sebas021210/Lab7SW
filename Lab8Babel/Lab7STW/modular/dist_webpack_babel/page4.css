@@ -1,0 +1,72 @@
+/*!*********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/pages/page4/page4.scss ***!
+  \*********************************************************************************************************************/
+.body_inicio {
+  background-color: #fefae0;
+}
+
+.contenedor {
+  width: 97%;
+  margin: auto;
+}
+
+header {
+  padding: 30 px 0;
+}
+
+header .contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+  color: #000000;
+  font-size: 40px;
+}
+
+p {
+  font-family: "Heveltica";
+  font-weight: normal;
+  font-size: 16px;
+  color: #000000;
+  text-align: justify;
+  max-width: 1200px;
+}
+
+a {
+  color: #AAA;
+}
+
+a:hover {
+  color: #000000;
+}
+
+img {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+h3 {
+  position: relative;
+  top: 20px;
+}
+
+progress {
+  position: relative;
+  top: 10px;
+}
+
+span {
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+
+footer {
+  position: relative;
+  top: 40px;
+}

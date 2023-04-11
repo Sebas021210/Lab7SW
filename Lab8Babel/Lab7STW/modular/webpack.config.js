@@ -11,7 +11,7 @@ module.exports = {
     page4: './src/pages/page4/page4.js'
   },
   output: {
-    path: path.resolve(__dirname, 'dist_webpack'),
+    path: path.resolve(__dirname, 'dist_webpack_babel'),
     filename: '[name].bundle.js',
   },
   module: {
@@ -30,7 +30,7 @@ module.exports = {
             outputPath: 'imagenes/'
         }
       },
-      /*
+      
       {
         test: /\.m?js$/,
         exclude: /node_modules/,
@@ -38,7 +38,7 @@ module.exports = {
           loader: 'babel-loader',
         }
       },
-      */
+      
     ],
   },
   plugins: [
